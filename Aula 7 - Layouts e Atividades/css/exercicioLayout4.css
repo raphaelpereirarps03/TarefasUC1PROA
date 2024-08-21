@@ -1,0 +1,343 @@
+/* CSS resets*/
+*{
+    position: relative;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+body {
+    background-image: url(../imgs/guitarra_fundo_body.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+main {
+    background-color: #c57273;
+    width: 95%;
+    height: auto;
+    margin: auto;
+}
+
+header{
+    background-color: #b3ea1d;
+    width: 100%;
+    height: 200px;
+    margin-bottom: 20px;
+    background-image: url(../imgs/guitarras_header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+
+header div{
+    position: absolute;
+    background-color: #fff;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    padding: 15px;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+
+header div a {
+    text-decoration: none;
+    margin: 30px;
+    color: brown;
+    
+}
+
+#conteudoPrincipal{
+    background-color: #bb1111;
+    width: 100%;
+    height: 70%;
+    margin-bottom: 20px;
+}
+
+#quadrados{
+    display:flex;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    justify-content:space-between;
+}
+.caixaRosa{
+    background-color: #c57273;
+    width: 45%;
+    height: 70%;
+    color: #fff;
+    margin: 20px;
+    padding: 15px;
+}
+#imgGuitarras {
+    width: 100%;
+    height: 100%;
+}
+
+    
+#conteudoAbaixo {
+    background-color: #81e1e0;
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+   
+#quadradosBrancos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: auto;
+    width: 100%;
+    margin: auto;
+}
+     
+.card{
+    background-color: #fff;
+    width: 15%;
+    height: 100%;
+    margin: 30px;
+    padding: 15px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.card img {
+    width: 80%;
+    height: 60%;
+}
+
+.card p1 {
+    color: red;
+    font-weight: bold;
+}
+
+nav {
+    background-color: rgb(255, 255, 255);
+    height: 250px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+#conteudoFooter {
+    background-color: #ffff01;
+}
+
+
+#quadradosFooters {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 100%;
+}
+
+.caixaMaps, .caixaTexto, .caixaForms, .caixaRedes {
+    background-color: #c57273;
+    width: 45%;
+    height: auto; /* Altura automática para se ajustar ao conteúdo */
+    color: #fff;
+    margin: 20px;
+    
+}
+
+.caixaTexto {
+    padding: 15px;
+}
+
+.caixaMaps iframe {
+    width: 100%;
+    height: 100%;
+    border: none; /* Remove a borda do iframe */
+}
+
+.caixaRedes, .caixaForms {
+    background-color: #fff;
+}
+.caixaRedes p {
+    display: flex;
+    justify-content: center;
+    
+    color: blue;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    padding: 15px;
+
+}
+
+#redes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgRede {
+    margin: 5px;
+    width: 75px;
+    height: 75px;
+}
+
+footer {
+    background-color: #000;
+    height: auto;
+    width: 100%;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+}
+
+
+
+.imgRede2 {
+    margin: 15px;
+    width: 35px;
+    height: 35px;
+}
+
+/*Visualização Mobile*/
+
+@media only screen and (max-width:480px) {
+    main {
+        background-color: #c57273;
+        width: 95%;
+        height: auto;
+        margin: auto;
+    }
+    
+    header{
+        background-color: #b3ea1d;
+        width: 100%;
+        height: auto;
+        margin-bottom: 20px;
+        background-image: url(../imgs/guitarras_header.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+
+    }
+    
+    header div{
+        position: relative;
+
+        display: flex;
+        flex-direction: column;
+        margin-top: 10%;
+        flex-wrap: wrap;
+        height: auto;
+        width: 100%;
+        margin: auto;
+        text-align: center;
+        
+        
+    }
+
+    header div a {
+        border: 2px #000 solid;
+        padding: 10px;
+        
+    }
+
+    #navTopo a{
+        width: 100%;
+      
+    }
+
+    #conteudoPrincipal #quadrados {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+
+    #conteudoPrincipal #quadrados .caixaRosa {
+        margin: auto;
+        width: 80%;
+        margin-bottom: 3%;
+
+        
+    }
+
+    #conteudoAbaixo {
+        width: 90%;
+        height: auto;
+        margin: auto;
+    }
+
+    #conteudoAbaixo #quadradosBrancos {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-evenly;
+        
+
+    }
+
+    #conteudoAbaixo #quadradosBrancos .card {
+        width: 25%;
+        margin: 5%;
+    }
+
+
+    #conteudoFooter{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }   
+
+    #conteudoFooter #quadradosFooters {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+    }
+
+    #conteudoFooter #quadradosFooters .caixaMaps {
+        width: 100%;
+        height:500px;
+    }
+
+    #conteudoFooter #quadradosFooters .caixaMaps iframe {
+        width: 100%;
+    }
+
+    #conteudoFooter #quadradosFooters .caixaTexto {
+        width: 90%;
+    }
+
+    .caixaRedes p {
+        color: blue;
+        font-size: 15px;
+        text-align: center;
+        font-weight: bold;
+        padding: 15px;
+    
+    }
+    
+    .imgRede {
+        margin: 5px;
+        width: 30px;
+        height: 30px;
+    }
+    
+    
+}
+
+
+
+

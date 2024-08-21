@@ -1,0 +1,131 @@
+<!DOCTYPE html> <!-- Indica para o navegador a versão mais atual do HTML (HTML5, no caso) -->
+<html> <!-- Tudo o que deverá ser renderizado no navegador -->
+    <head> <!-- Cabeçalho, uma tag principal que deve estar em todas as páginas criadas -->
+        <title> Hello World! </title>
+        <!-- SEO ajuda a ranquear o site dentro google, aquele negócio de aparecer na primeira página, no topo da pesquisa e etc *PESQUISAR DEPOIS* -->
+
+        <style>
+            body{
+                font-size: 20px; /*tamanho da fonte*/
+                color: #FFF;/*cor da fonte*/
+                /*text-align: center; alinhamento centralizado*/
+                background-color: #ccc; /*Muda a cor do background*/
+                background-image: url("imgs/bmwFrontalFarois.jpg"); /*muda o background por uma imagem*/
+                background-repeat: no-repeat; /*para a imagem de fundo não ficar se repetindo*/
+                background-position: 50% 50%; /*centralizar a imagem no centro*/
+                background-attachment: fixed;/*fixa a imagem no funda da página*/
+                background-size: cover; /*tamanho do background para cobrir toda a tela*/ 
+            }
+            
+            h1{
+                font-size: 30px;
+                color: #659173;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                text-decoration: overline dotted;
+                background-color: #991099;
+            }
+
+            h2{
+                font-size: 50px;
+                color: #938745;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                text-align: right;
+                background-color: #4632e2;
+                text-decoration: line-through dashed;
+            }
+
+            p{
+                font-style: italic;
+                text-decoration:underline dotted;
+                text-align: justify;
+                font-size: 2em;
+                background-color: rgb(13, 204, 112);
+                color:rgb(241, 94, 2);
+                background-image: url("imgs/newcity.png");
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: 50% 50%;
+
+            }
+
+            h3{
+                text-decoration: underline;
+                color: aqua;
+                width: 600px;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                font-weight: normal;
+                background-color: yellow;
+            }
+
+            .diferente{
+                background-color: skyblue;
+
+            }
+
+            #testeIdH4 {
+                text-decoration: dashed line-through;
+                text-align: start;
+                font-size: 8em;
+                background-color: rgb(153, 204, 13);
+                color: #4632e2;
+            }
+
+
+            h5, h6 {
+                font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+                /* text-align: center; */
+                color:blueviolet;
+                /*margin:20px;*/  /*Margin desloca um componente mexendo na margem EXTERNA*/
+                margin: auto;/*centraliza horizontalmente*/
+                border-color: #0496d5;
+                border-width: 5px;
+                border-style: solid;
+                padding: 70px; /*padding Desloca o componente mexendo na margem INTERNA*/
+            ;
+            }
+
+            h6 {
+                color: tomato;
+                /*margin-left:200px ;*/
+            }
+
+            /*h5{
+                 margin:200px 30px 0px 20px; 
+            } */
+
+            #route66 {
+                width: 150px;
+                height: 150px;
+            }
+        </style>
+    </head>
+
+    <body> <!-- Corpo da página -->
+        <p> Hello World! </p> <!-- tag de parágrafo -->
+        <h1> Testando a heading1 (h1) </h1> <!-- tag de heading, usada para títulos--> 
+        <h2> Testando a heading2 (h2) </h2> <!-- tag de heading, usada para títulos-->
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam, tempore neque? Quasi, error esse suscipit accusamus obcaecati dolor molestias sint totam voluptatum iusto impedit eveniet! Nam eveniet molestiae praesentium error.</p>
+
+        <h3> Testando a heading3 (h3)</h3> <!-- tag de heading, usada para títulos-->
+
+        <h3 class="diferente"> Testando a heading3 (h3)</h3>
+        <h3> Testando a heading3 (h3)</h3>
+        <h3> Testando a heading3 (h3)</h3>
+
+        <h4 id="testeIdH4">Testando a heading4 (h4)</h4>
+<!-- tag de heading, usada para títulos-->
+        <h5> Testando a heading5 (h5)</h5> <!-- tag de heading, usada para títulos-->
+        <h6> Testando a heading6 (h6)</h6> <!-- tag de heading, usada para títulos-->
+
+        <img src="imgs/always procrastinate.gif"/>
+        <img src="imgs/gifs.jfif" alt="imagem do pokemon pikachu chorando" title="imagem do pokemon pikachu chorando" />
+        <img src="imgs/guts.jfif"  alt="imagem do personagem guts da obra mangá berserk no modo berserk" title="imagem do personagem guts de berserk no modo berserk"/>
+        <img src="imgs/michael.jfif" alt="imagem do michael jackson no clipe thriler comendo pipoca no cinema e sorrindo" title="imagem do michael jackson no clipe thriler comendo pipoca no cinema e sorrindo"/>
+        <img src="imgs/eclipse.jfif" alt="fanart do mangá berserk sobre o evento do eclipse com guts no centro ao fundo e distante no centro e a marca da mladição no eclipse" title="fanart do mangá berserk sobre o evento do eclipse com guts no centro ao fundo e distante e a marca da mladição no eclipse" />
+        <img src="imgs/programando.gif" alt="gif de um homem mexendo no computador" title="gif de um homem mexendo no computador" />
+        <img src="imgs/logo.jpg" alt="logotipo de um escudo escrito route 66 naquele estilo texano" title="logotipo de um escudo escrito route 66 naquele estilo texano" id="route66"/>
+        
+
+    </body>
+</html>

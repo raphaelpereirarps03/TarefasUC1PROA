@@ -1,0 +1,96 @@
+/*CSS resete*/
+*{
+    margin:0px;
+    padding: 0px;
+    border:0px;
+}
+
+
+main{
+    position:relative;
+    width: 90%;
+    margin: auto;
+    height:auto;
+    background-color: bisque;
+    margin-top: 10px;
+}
+
+header{
+    background-color:#ccff00ff;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/* .principal{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    
+} */
+
+
+#lado-esquerda{
+    position: relative;
+    background-color:#aaffffff ;
+    width: 30%;
+    float:left;
+    height:580px;
+}
+#lado-direito{
+    position: relative;
+    background-color: #7c44ff;
+    width: 70%;
+    float:left;
+    height:580px;
+}
+.titulo{
+    background-color: #ccffffff;
+    text-align: center;
+    margin:0;
+}
+.caixaBranca{
+    position: relative;
+    width: 90%;
+    height: 260px;
+    background-color: #ffffff;
+    margin: auto;
+    margin-top: 10px;
+}
+
+article{
+    margin: 10px;
+    position: relative;
+    background-color: #fcf1f1;
+    height: 100%;
+}
+
+
+
+.paratexto{
+    background-color: #cc6666ff;
+    height: 220px;
+    color: #fff;
+    margin-top: 10px;
+}
+
+div {
+    background-color: #ccccffff;
+    height: 250px;
+    margin-top: 10px;
+
+}
+
+footer{
+    position: relative;
+    width: 100%;
+    background-color:#330000ff ;
+    color: #fff;
+    height: 60px;
+    clear: left;
+    
+}

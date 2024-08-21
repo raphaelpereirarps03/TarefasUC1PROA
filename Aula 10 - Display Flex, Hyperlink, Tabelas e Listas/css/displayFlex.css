@@ -1,0 +1,61 @@
+/*CSS Resets*/
+*{
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    font-family:  'Arial Narrow Bold', sans-serif;
+}
+main {
+    width: 100vw; /*Definindo a largura com Vw = View width. Vw é baseado no janela de visualização da tela,  o viewport*/
+    height: 100vh; /*Definindo a altura com Vh = View Height. Vh é baseado no janela de visualização da tela,  o viewport*/
+}
+
+#container {
+    position: relative;
+    display: flex; 
+    flex-direction:row; /*Direção que os componentes internos ficarão dispostos, alinhados *SÓ FUNCIONA NO DISPLAY FLEX**/
+    align-items:center; /*Alinhamento Vertical *SÓ FUNCIONA NO DISPLAY FLEX**/
+    justify-content:space-around; /*Alinhamento Horizontal *SÓ FUNCIONA NO DISPLAY FLEX**/
+    width: 80%;
+    height: 700px;
+    margin:auto;
+    /* background-image: url(../imgs/background.jpg);
+    background-size:cover;
+    background-repeat: no-repeat; */
+
+
+     
+    /* div {
+        position: relative;
+        width: 15%;
+        height: 100px;
+        border:3px solid;
+        background-color: chartreuse;
+    } */
+}
+
+#container div {
+    position: relative;
+    width: 15%;
+    height: 100px;
+    background-color: chartreuse;
+    border:3px solid;
+        
+}
+
+#container div img {
+    width: 100%;
+    height: 100%;
+    
+}
+
+#container video {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1; /* Definindo a camada em que ele ficará*/
+}
+
+/* a {
+    color: aliceblue;
+} */

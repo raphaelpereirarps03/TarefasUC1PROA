@@ -1,0 +1,23 @@
+/*static*/
+div {
+    height: 50px;
+    background-color: #ccc;
+    border: 1px solid #222;
+    padding: 10px;
+}
+/*relative*/
+.relative{
+    background-color: #321;
+    position:relative;
+    color: #fff;
+}
+
+/*Absolute*/
+.absolute {
+    height: 25px;
+    width:70px;
+    background-color: #97f;
+    position: absolute;
+    top:20px;
+    right: 20px;
+}
