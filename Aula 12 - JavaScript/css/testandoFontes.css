@@ -1,0 +1,38 @@
+*{
+    border: 0px;
+    padding: 0px;
+    margin: 0px;
+}
+
+@font-face {
+    font-family: fonte1;
+    src: url(/fonts/Jersey10-Regular.ttf);
+}
+
+@font-face {
+    font-family: fonte2;
+    src: url(/fonts/Matemasie-Regular.ttf);
+}
+
+@font-face {
+    font-family: fonte3;
+    src: url(/fonts/QwitcherGrypen-Bold.ttf);
+}
+
+#fonte1Jersey {
+    font-family: fonte1;
+    font-size: 100px;
+    color: aqua;
+}
+
+#fonte2Matemasie {
+    font-family: fonte2;
+    font-size: 100px;
+    color: rgb(255, 217, 0);
+}
+
+#fonte3QwitcherGrypen{
+    font-family: fonte3;
+    font-size: 100px;
+    color: rgb(255, 0, 0);
+}

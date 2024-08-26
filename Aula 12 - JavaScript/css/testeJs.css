@@ -1,0 +1,58 @@
+* {
+    border: 0px;
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    text-align: center;
+}
+
+img {
+    width: 120px;
+    height: 100px;
+    margin: 30px;
+
+}
+
+div {
+    position: absolute;
+    top: 180px;
+    left: 1300px;
+    width: 400px;
+    height: 350px;
+    border: 5px double;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
+    visibility: hidden; /*Oculta o componente, diferente do display flex, que retira "físicamente"*/
+
+}
+
+#camada1 {
+    color: #060;
+    background-color: rgb(0, 221, 255);
+    border-color: brown;
+}
+#camada2 { 
+    color: rgb(251, 255, 0);
+    background-color: rgb(255, 0, 212);
+    border-color: turquoise;
+}
+#camada3 {
+    color: chocolate;
+    background-color: royalblue;
+    border: pink;
+
+}
+
+div img {
+    width: 80px;
+    height: 70px;
+    float: left;
+    margin: 10px;
+
+}
+
