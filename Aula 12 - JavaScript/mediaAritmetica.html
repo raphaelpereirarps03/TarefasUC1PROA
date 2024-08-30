@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media aritmética</title>
+    <link rel="stylesheet" href="./css/testeJs2.css" type="text/css">
+</head>
+<body>
+    <h1>
+       Média Aritmética
+    </h1>
+    
+    <script>
+        let nota1 = parseFloat(prompt ("Entre com a primeira nota: "));
+        let nota2 = parseFloat(prompt ("Entre com a segunda nota: "));
+        let nota3 = parseFloat(prompt ("Entre com a terceira nota: "));
+        let nota4 = parseFloat(prompt ("Entre com a quarta nota: "));
+
+        let media = (nota1 + nota2 + nota3 + nota4 )/4;
+
+        document.write("A média de notas é: " + media.toFixed(2));
+
+        document.write("<br> A média de notas é: " + Math.round(media).toFixed(2));
+
+        if (media<5) {
+            document.write("<br>Média: "+ media +", menor que 6. uma pena, você está reprovado. :(");
+        } else if (media<6) {
+            document.write("<br> Média: "+ media + ",maior ou igual à 5 e menor que 6, você tem uma segunda chance, estude, você está de recuperação!");
+        }else {
+            document.write("<br> PARABÉNS! Média: "+media+", maior ou igual à 6, Você está aprovado. :)");
+        }
+
+    </script>
+</body>
+</html>
