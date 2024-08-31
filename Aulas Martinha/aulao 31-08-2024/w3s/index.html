@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>W3Schools responsive</title>
+
+    <style>
+         #header {
+            width: 100%;
+            height: 100px;
+            background-color: #ff0400;
+            float: left;
+        }
+
+        #esquerda {
+            width: 20%;
+            height: 400px;
+            background-color: #f28c06;
+            float: left;
+        }
+        #miolo {
+            width: 60%;
+            height: 400px;
+            background-color: #14dc2e;
+            float: left;
+        }
+        #direita {
+            width: 20%;
+            height: 400px;
+            background-color: #cac70b;
+            float: left;
+        }
+
+        #footer {
+            width: 100%;
+            height: 100px;
+            background-color: #0508db; 
+            float: left;
+        }
+
+        @media only screen and(max-width:600px) {
+            #esquerda, #miolo, #direita {
+                width: 100%;
+            }
+    
+        }
+
+
+    </style>
+  </head>
+  <body>
+    <div id="container">
+        <div id="header">
+            header
+        </div>
+        <div id="esquerda">
+            esquerda(menu)</div>
+        <div id="miolo">
+            miolo
+        </div>
+        <div id="direita">
+            direita
+        </div>
+        <div id="footer">
+            <footer>
+                
+            </footer>
+        </div>
+    </div>
+  </body>
+</html>
